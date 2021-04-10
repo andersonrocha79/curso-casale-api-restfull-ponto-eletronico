@@ -1,6 +1,7 @@
-[![Build Status](https://travis-ci.org/m4rciosouza/ponto-inteligente-api.svg?branch=master)](https://travis-ci.org/m4rciosouza/ponto-inteligente-api)
 # Ponto Inteligente
 API do sistema de ponto inteligente com Java e Spring Boot.
+Curso Casale da Udemy
+
 ### Detalhes da API RESTful
 A API RESTful de Ponto Inteligente contém as seguintes características:  
 * Projeto criado com Spring Boot e Java 8
@@ -10,10 +11,11 @@ A API RESTful de Ponto Inteligente contém as seguintes características:
 * Testes unitários e de integração com JUnit e Mockito
 * Caching com EhCache
 * Integração contínua com TravisCI
+
 ### Como executar a aplicação
 Certifique-se de ter o Maven instalado e adicionado ao PATH de seu sistema operacional, assim como o Git.
 ```
-git clone https://github.com/m4rciosouza/ponto-inteligente-api.git
+clonar o projeto
 cd ponto-inteligente-api
 mvn spring-boot:run
 Acesse os endpoints através da url http://localhost:8080
